@@ -1,0 +1,27 @@
+.previous_Month{
+ color: gray;
+ text-align: center;
+}
+.current_Month{
+ color: #C916C6;
+ text-align: center;
+}
+.dayNow{
+ border: 2px solid black;
+ color: #DEECFC;
+ text-align: center;
+}
+.calendar td{
+ htmlContent: 2px;
+ width: 40px;
+}
+.current_Month th{
+ background-color: #780D78;
+ color: #FFFFFF;
+ text-align: center;
+}
+.days{
+ background: #EDC4BE;
+ color: #FFFFFF;
+ text-align: center;
+}

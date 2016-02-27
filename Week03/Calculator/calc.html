@@ -1,0 +1,22 @@
+<html>
+<head> 
+<title>Simple Calculator</title>
+<script type = "text/JavaScript" src = "calculator.js"> </script> 
+<link rel="stylesheet" type="text/css" href="calculator.css">
+</head> 
+ 
+ <body>
+ 
+  <div class="box">
+    <div class="display"><input type="text" readonly size="18" id="d"></div>
+    <div class="keys">
+        <p><input type="button" class="button gray" value="mrc" onclick='c("not defined ")'><input type="button" class="button gray" value="m-" onclick='c("not defined ")'><input type="button" class="button gray" value="m+" onclick='c("not defined ")'><input type="button" class="button pink" value="/" onclick='Oper("/")'></p>
+        <p><input type="button" class="button red" value="7" onclick='Oper("7")'><input type="button" class="button red" value="8" onclick='Oper("8")'><input type="button" class="button red" value="9" onclick='Oper("9")'><input type="button" class="button pink" value="*" onclick='Oper("*")'></p>
+        <p><input type="button" class="button red" value="4" onclick='Oper("4")'><input type="button" class="button red" value="5" onclick='Oper("5")'><input type="button" class="button red" value="6" onclick='Oper("6")'><input type="button" class="button pink" value="-" onclick='Oper("-")'></p>
+        <p><input type="button" class="button red" value="1" onclick='Oper("1")'><input type="button" class="button red" value="2" onclick='Oper("2")'><input type="button" class="button red" value="3" onclick='Oper("3")'><input type="button" class="button pink" value="+" onclick='Oper("+")'></p>
+        <p><input type="button" class="button red" value="0" onclick='Oper("0")'><input type="button" class="button red" value="." onclick='Oper(".")'><input type="button" class="button red" value="C" onclick='c("")'><input type="button" class="button orange" value="=" onclick='e()'></p>
+    </div>
+  </div>
+
+</body>
+</html> 
